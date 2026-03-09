@@ -1,0 +1,54 @@
+name: asha_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Network / Launch
+  url_launcher: ^6.2.0
+
+  # File & Storage
+  excel: ^4.0.3
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+
+  # Voice / Speech
+  speech_to_text: ^7.0.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Shared Preferences
+  shared_preferences: ^2.2.3
+
+  # Connectivity
+  connectivity_plus: ^6.0.3
+
+  # Image Picker
+  image_picker: ^1.1.2
+
+  # Share / Export
+  share_plus: ^10.0.2
+
+  # PDF generation
+  pdf: ^3.11.1
+  printing: ^5.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
